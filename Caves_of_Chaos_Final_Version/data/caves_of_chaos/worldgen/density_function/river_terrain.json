@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:add",
+  "argument1": "caves_of_chaos:util/river_terrain_reducer",
+  "argument2": "caves_of_chaos:terrain"
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:squeeze",
+  "argument": {
+    "type": "minecraft:interpolated",
+    "argument": {
+      "type": "minecraft:blend_density",
+      "argument": {
+        "type": "minecraft:range_choice",
+        "input": "caves_of_chaos:util/continents",
+        "min_inclusive": -1.049,
+        "max_exclusive": -0.2,
+        "when_in_range": "caves_of_chaos:ocean_terrain",
+        "when_out_of_range": {
+          "type": "minecraft:range_choice",
+          "input": "caves_of_chaos:util/modified_valleys",
+          "min_inclusive": 0,
+          "max_exclusive": 1,
+          "when_in_range": "caves_of_chaos:terrain",
+          "when_out_of_range": "caves_of_chaos:river_terrain"
+        }
+      }
+    }
+  }
+}

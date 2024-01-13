@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:interpolated",
+  "argument": {
+    "type": "minecraft:blend_density",
+    "argument": {
+      "type": "minecraft:add",
+      "argument1": "caves_of_chaos:terrain",
+      "argument2": "caves_of_chaos:water_offset"
+    }
+  }
+}

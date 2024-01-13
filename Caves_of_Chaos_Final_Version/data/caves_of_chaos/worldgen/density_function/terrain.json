@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:add",
+  "argument1": -0.234375,
+  "argument2": {
+    "type": "minecraft:mul",
+    "argument1": {
+      "type": "minecraft:y_clamped_gradient",
+      "from_y": -192,
+      "to_y": -176,
+      "from_value": 0.6,
+      "to_value": 0.8
+    },
+    "argument2": {
+      "type": "minecraft:add",
+      "argument1": 0.234375,
+      "argument2": {
+        "type": "minecraft:add",
+        "argument1": -23.4375,
+        "argument2": {
+          "type": "minecraft:mul",
+          "argument1": {
+            "type": "minecraft:y_clamped_gradient",
+            "from_y": 256,
+            "to_y": 1500,
+            "from_value": 1,
+            "to_value": 0
+          },
+          "argument2": {
+            "type": "minecraft:add",
+            "argument1": 23.4375,
+            "argument2": "caves_of_chaos:base_3d_noise"
+          }
+        }
+      }
+    }
+  }
+}

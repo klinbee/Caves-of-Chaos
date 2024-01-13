@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:range_choice",
+    "input": "caves_of_chaos:util/continents",
+    "min_inclusive": -1.03,
+    "max_exclusive": -0.22,
+    "when_in_range": "caves_of_chaos:util/base_ocean_floor",
+    "when_out_of_range": 0
+  }
+  

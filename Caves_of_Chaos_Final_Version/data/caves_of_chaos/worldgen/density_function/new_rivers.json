@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:range_choice",
+  "input": "caves_of_chaos:terrain",
+  "max_exclusive": 0,
+  "min_inclusive": -10,
+  "when_in_range": -10,
+  "when_out_of_range": {
+    "type": "minecraft:range_choice",
+    "input": "caves_of_chaos:util/modified_valleys",
+    "max_exclusive": 1,
+    "min_inclusive": 0,
+    "when_in_range": -10,
+    "when_out_of_range": 0.5
+  }
+}

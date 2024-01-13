@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:range_choice",
+  "input": "caves_of_chaos:temperature",
+  "max_exclusive": 0.450,
+  "min_inclusive": 0.2,
+  "when_in_range": {
+    "type": "minecraft:add",
+    "argument1": -0.2,
+    "argument2": "caves_of_chaos:temperature"
+  },
+  "when_out_of_range": "caves_of_chaos:temperature"
+}

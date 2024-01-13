@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:add",
+    "argument1": 0,
+    "argument2": {
+        "type": "minecraft:clamp",
+        "input": {
+            "type": "minecraft:add",
+            "argument1": "caves_of_chaos:util/ocean_terrain_reducer",
+            "argument2": "caves_of_chaos:terrain"
+        },
+        "max": 10,
+        "min": -0.1
+    }
+}
